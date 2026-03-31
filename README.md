@@ -1,2 +1,2 @@
-# Benchmarking-VQE-for-Nuclear-Shell-Model-on-Noisy-Quantum-Hardware-18O-as-a-Case-Study
-Benchmarks VQE for computing the ground-state energy of 18O using the nuclear shell model (USDB interaction). Compares noiseless, noisy, and error-mitigated simulations, and evaluates Jordan-Wigner vs Gray Code encodings for noise resilience.
+# Benchmarking VQE for Nuclear Shell Model on Noisy Quantum Hardware: ¹⁸O as a Case Study
+This notebook benchmarks the Variational Quantum Eigensolver for computing the ground-state energy of ¹⁸O using the nuclear shell model with the USDB interaction. We systematically compare performance across three levels: Noiseless, Noisy and Error Mitigated. We also compare two qubit encodings, Jordan-Wigner and Gray Code, and study which is more noise-resilient on near-term hardware.
